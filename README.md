@@ -21,9 +21,13 @@ Google Colab
 Dados fornecidos no repositório oficial do desafio: https://github.com/alura-es-cursos/challenge1-data-science
 
 Cada loja possui um dataset próprio em formato CSV:
+
 loja1 = "https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science/refs/heads/main/base-de-dados-challenge-1/loja_1.csv"
+
 loja2 = "https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science/refs/heads/main/base-de-dados-challenge-1/loja_2.csv"
+
 loja3 = "https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science/refs/heads/main/base-de-dados-challenge-1/loja_3.csv"
+
 loja4 = "https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science/refs/heads/main/base-de-dados-challenge-1/loja_4.csv"
 
 📈 Métricas Analisadas:
@@ -82,5 +86,8 @@ Com base nas métricas analisadas, conclui-se que a Loja 4 apresenta o menor des
 -Modelagem preditiva para projeção de faturamento
 
 📬 DESENVOLVIDO E ANALISADO POR: Danielli Arçari
-📬Contato: 🔗 LinkedIn: https://www.linkedin.com/in/danielli-arcari
+
+📬Contato: 
+
+🔗 LinkedIn: https://www.linkedin.com/in/danielli-arcari
 
