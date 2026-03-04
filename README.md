@@ -153,9 +153,37 @@ Dessa forma, a recomendação estratégica é que **a Loja 4 seja a unidade esco
 
 ---
 
+# 🚀 Possíveis Próximos Passos da Análise
+
+Embora a análise exploratória tenha permitido identificar a loja com menor desempenho, análises adicionais poderiam aprofundar o entendimento do negócio.
+
+Possíveis evoluções do projeto:
+
+**Análise de tendências temporais**
+- Avaliar a evolução das vendas ao longo do tempo
+- Identificar sazonalidade ou períodos de baixa performance
+
+**Segmentação de produtos**
+- Identificar categorias com maior potencial de crescimento
+- Avaliar margem e rentabilidade por categoria
+
+**Análise de comportamento do consumidor**
+- Investigar padrões de compra dos clientes
+- Identificar produtos frequentemente comprados juntos
+
+**Modelagem preditiva**
+- Construção de modelos para prever vendas futuras
+- Previsão de demanda por categoria ou região
+
+**Dashboard de Business Intelligence**
+- Criação de dashboard interativo em Power BI ou similar
+- Monitoramento contínuo de indicadores de desempenho
+
+---
+
 ## 👩‍💻 Autora
 
-**Danielli Arçari**
+**Danielli Meilene Coutinho Arçari**
 
 Estudante de Ciência da Computação com foco em **Análise de Dados e Business Intelligence**.
 
