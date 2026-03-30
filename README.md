@@ -1,195 +1,54 @@
-# 📊 Análise de Desempenho – Alura Store
+# Análise de Desempenho de Lojas
 
-## 📌 Visão Geral
+## Problema de negócio
 
-Projeto de **análise exploratória de dados (EDA)** desenvolvido para avaliar o desempenho de quatro lojas da rede fictícia **Alura Store** e apoiar uma decisão estratégica de negócio.
+Uma rede de varejo com quatro lojas precisa decidir qual unidade vender para investir em um novo negócio. A ideia aqui foi usar dados para entender qual loja tem o pior desempenho geral e, com isso, apoiar essa decisão.
 
-A análise busca identificar qual unidade apresenta o **menor desempenho comparativo**, fornecendo suporte analítico para a decisão de venda de uma das lojas.
+## Objetivo
 
-Projeto realizado no contexto da especialização em **Data Science do programa ONE – Oracle Next Education**.
+Comparar o desempenho das quatro lojas a partir de indicadores financeiros e operacionais, buscando identificar padrões consistentes de baixa performance.
 
----
+## Tecnologias utilizadas
 
-## 🎯 Problema de Negócio
+Python, Pandas, Matplotlib e Jupyter Notebook.
 
-O Sr. João, proprietário da rede Alura Store, deseja vender uma das quatro lojas para investir em um novo empreendimento.
+## Base de dados
 
-A análise de dados foi conduzida para responder à seguinte pergunta:
+Os dados representam vendas realizadas em quatro lojas diferentes e incluem informações como produto, categoria, preço, frete, data da compra, avaliação do cliente e localização.
 
-**Qual loja apresenta o pior desempenho e deveria ser vendida?**
+## O que foi analisado
 
----
+A análise considerou faturamento total, ticket médio, distribuição das vendas por categoria, avaliação dos clientes, custo médio de frete e a distribuição geográfica das vendas.
 
-## 🔧 Tecnologias Utilizadas
+## Principais resultados
 
-- Python  
-- Pandas  
-- Matplotlib  
-- Google Colab  
-- Análise Exploratória de Dados (EDA)
+A Loja 4 apresentou o menor faturamento entre as unidades, além do menor ticket médio, o que indica menor geração de valor por venda. Em relação às demais variáveis, como avaliação dos clientes e mix de produtos, não houve diferença relevante que justificasse esse desempenho inferior.
 
----
+Apesar de apresentar o menor custo médio de frete, essa vantagem não foi suficiente para compensar os resultados financeiros mais baixos.
 
-## 📂 Base de Dados
+## Interpretação
 
-Os dados foram disponibilizados pela Alura em formato **CSV** e incluem informações sobre vendas realizadas em quatro lojas.
+Os dados mostram um padrão consistente de baixo desempenho da Loja 4 nos principais indicadores de receita. Como não há um diferencial positivo nas outras métricas analisadas, isso sugere que o problema não é pontual, mas estrutural.
 
-Variáveis presentes na base:
+## Recomendação
 
-- Produto  
-- Categoria  
-- Preço  
-- Frete  
-- Data da compra  
-- Avaliação do cliente  
-- Localização geográfica  
+Com base na análise, a Loja 4 é a melhor candidata para venda, por apresentar o pior desempenho geral entre as unidades.
 
-Cada loja possui seu próprio conjunto de dados.
+## Impacto da análise
 
----
+A análise permite transformar dados operacionais em uma decisão mais segura, reduzindo a subjetividade no processo de escolha.
 
-# 📈 Análises Realizadas
+## Próximos passos
 
-## 1️⃣ Faturamento Total
+Como continuidade, faria sentido analisar a evolução das vendas ao longo do tempo, entender melhor a margem por categoria e explorar o comportamento dos clientes. Também seria interessante organizar essas informações em um dashboard para acompanhamento contínuo.
 
-O faturamento total foi utilizado como principal indicador de desempenho financeiro das lojas.
+## Autora
 
-![Participação no Faturamento](images/download7.png)
+Danielli Meilene Coutinho Arçari
 
-**Resultado**
-
-A **Loja 4 apresenta a menor participação no faturamento total da rede**, indicando desempenho financeiro inferior.
-
----
-
-## 💰 2️⃣ Ticket Médio
-
-O ticket médio foi analisado para avaliar o valor médio das compras realizadas em cada loja.
-
-**Resultado**
-
-A **Loja 4 apresenta o menor ticket médio**, sugerindo menor geração de valor por venda em comparação às demais unidades.
-
----
-
-## 📦 3️⃣ Vendas por Categoria
-
-Foi realizada análise comparativa das categorias de produtos entre as lojas.
-
-![Comparativo por Categoria](images/download6.png)
-
-**Observação**
-
-Todas as lojas apresentam portfólio diversificado, sem diferenças estruturais relevantes entre categorias.
-
----
-
-## ⭐ 4️⃣ Avaliação dos Clientes
-
-A média de avaliação foi analisada para avaliar a experiência do cliente.
-
-![Avaliação Média](images/download4.png)
-
-**Resultado**
-
-As quatro lojas possuem média próxima de **4 estrelas**, indicando satisfação geral positiva dos clientes.
-
----
-
-## 📊 5️⃣ Relação entre Faturamento e Avaliação
-
-Foi analisada a relação entre faturamento e satisfação dos clientes.
-
-![Faturamento x Avaliação](images/download3.png)
-
-**Resultado**
-
-Não foi identificada correlação significativa entre faturamento e avaliação dos clientes.
-
----
-
-## 🚚 6️⃣ Frete Médio
-
-O custo médio de frete também foi analisado.
-
-![Frete Médio](images/download2.png)
-
-**Resultado**
-
-A **Loja 4 apresenta o menor frete médio**, indicando eficiência logística. No entanto, essa vantagem não compensa seu menor desempenho financeiro.
-
----
-
-## 🌎 7️⃣ Distribuição Geográfica das Vendas
-
-Foi realizada análise exploratória da distribuição geográfica das vendas.
-
-![Distribuição Geográfica](images/download1.png)
-
-**Resultado**
-
-A distribuição espacial das vendas é semelhante entre as lojas, indicando ausência de fator regional determinante.
-
----
-
-# 🔎 Principais Insights
-
-A análise comparativa das métricas revelou que:
-
-- A **Loja 4 possui o menor faturamento da rede**
-- Apresenta também o **menor ticket médio**
-- Não apresenta vantagem competitiva significativa nas demais métricas
-- Possui bom desempenho logístico (frete menor), mas isso não compensa o desempenho financeiro inferior
-
----
-
-# 🧾 Conclusão
-
-Com base na análise dos indicadores financeiros, operacionais e de satisfação do cliente, conclui-se que:
-
-**A Loja 4 apresenta o menor desempenho geral entre as unidades da rede.**
-
-Dessa forma, a recomendação estratégica é que **a Loja 4 seja a unidade escolhida para venda**, permitindo que o capital obtido seja direcionado ao novo investimento planejado.
-
----
-
-# 🚀 Possíveis Próximos Passos da Análise
-
-Embora a análise exploratória tenha permitido identificar a loja com menor desempenho, análises adicionais poderiam aprofundar o entendimento do negócio.
-
-Possíveis evoluções do projeto:
-
-**Análise de tendências temporais**
-- Avaliar a evolução das vendas ao longo do tempo
-- Identificar sazonalidade ou períodos de baixa performance
-
-**Segmentação de produtos**
-- Identificar categorias com maior potencial de crescimento
-- Avaliar margem e rentabilidade por categoria
-
-**Análise de comportamento do consumidor**
-- Investigar padrões de compra dos clientes
-- Identificar produtos frequentemente comprados juntos
-
-**Modelagem preditiva**
-- Construção de modelos para prever vendas futuras
-- Previsão de demanda por categoria ou região
-
-**Dashboard de Business Intelligence**
-- Criação de dashboard interativo em Power BI ou similar
-- Monitoramento contínuo de indicadores de desempenho
-
----
-
-## 👩‍💻 Autora
-
-**Danielli Meilene Coutinho Arçari**
-
-Estudante de Ciência da Computação com foco em **Análise de Dados e Business Intelligence**.
-
-🔗 Portfólio  
+Portfólio
 https://danielliarcari.vercel.app
 
-🔗 GitHub  
+GitHub
 https://github.com/danielli-arcari
 
